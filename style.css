@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Chillax";
+  src: url(Assets/Chillax-Regular.woff), url(Assets/Chillax-Regular.woff2);
+}
+
+@font-face {
+  font-family: "Chillax Light";
+  src: url(Assets/Chillax-Light.woff), url(Assets/Chillax-Light.woff2);
+}
+
+@font-face {
+  font-family: "Chillax Bold";
+  src: url(Assets/Chillax-Bold.woff), url(Assets/Chillax-Bold.woff2);
+}
+
+@font-face {
+  font-family: "Chillax Medium";
+  src: url(Assets/Chillax-Medium.woff), url(Assets/Chillax-Medium.woff2);
+}
+
+body {
+  /* vertical and horizontal alignment   */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  gap: 50px;
+}
+
+main {
+  /* basic styling   */
+  /*   outline: 4px solid black; */
+  height: 410px;
+  width: 400px;
+  background-color: #ffa21f;
+  border-radius: 30px;
+  /* change if you like */
+  text-align: center;
+  font-family: "Chillax Light", sans-serif;
+}
+
+#city, #city2 {
+  letter-spacing: 2px;
+  font-family: "Chillax Medium", sans-serif;
+}
+
+#temp, #temp2 {
+    letter-spacing: 2px;
+    font-family: "Chillax Medium", sans-serif;
+    font-size: 3em;
+}
+
+data {
+  /* remove or change value to `inline-block`   */
+  display: block;
+}
+
+table {
+  width:100%;
+  margin-top: 20px;
+}
+
+
+
